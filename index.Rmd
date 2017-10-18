@@ -1,0 +1,237 @@
+---
+output:
+  html_document:
+    highlight: null
+    mathjax: null
+    toc_float: false
+    self_contained: false
+    css: ['css/index.css', 'css/font-awesome.min.css']
+    includes:
+      in_header: ['header.html']
+---
+
+
+<!--html_preserve-->
+
+<!--
+https://getbootstrap.com/components/#navbar
+-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-list" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Carson Sievert</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-list">
+      <ul class="nav navbar-nav navbar-right"> 
+        <li><a href="https://consulting.cpsievert.me" target="_blank">Consulting</a></li>
+        <li><a href="#Software">Software</a></li>
+        <li><a href="https://talks.cpsievert.me" target="_blank">Talks</a></li>
+        <li><a href="https://workshops.cpsievert.me" target="_blank">Workshops</a></li>
+        <li><a href="https://blog.cpsievert.me" target="_blank">Blog</a></li>
+        <li><a href="/cv.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!--/html_preserve-->
+
+
+
+```{r, include = FALSE}
+library("htmltools")
+library("bsplus")
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  echo = FALSE
+)
+```
+
+
+
+```{r main}
+# carousel for initial section
+welcome_carousel <- bs_carousel(id = "carousel-cover", use_indicators = TRUE) %>%
+  bs_append(
+    content = bs_carousel_image(src = "img/plotcon.png"),
+    caption = tagList(div(
+      class = "carousel-caption",
+      style = "position:fixed; top:30%;",
+      h3(
+        style = "text-align: left",
+        "Hi! I'm Carson. Founder of", br(),
+        a(href = "https://consulting.cpsievert.me/", target = "_blank", "Sievert Consulting.")
+      )
+    ))
+  ) %>%
+  bs_append(
+    content = bs_carousel_image(src = "img/corfu-town.jpg"),
+    caption = bs_carousel_caption(
+      "Outside of work, I enjoy traveling, photography, board games, cooking, & cocktails.",
+      "Corfu, Greece (2017)"
+    )
+  ) %>%
+  bs_append(
+    content = bs_carousel_image(src = "img/key-summit.jpg"),
+    caption = bs_carousel_caption(
+      "I also like to run & hike",
+      "New Zealand (2016)"
+    )
+  ) %>%
+  bs_append(
+    content = bs_carousel_image(src = "img/fuji.jpg"),
+    caption = bs_carousel_caption(
+      "I've been very fortunate to see many amazing places",
+      "New Zealand (2016)"
+    )
+  ) %>%
+  bs_append(
+    content = bs_carousel_image(src = "img/dubrovnik-cannon.jpg"),
+    caption = bs_carousel_caption(
+      "I swore an oath to defend King's Landing.",
+      "Dubrovnik, Croatia (2017)"
+    )
+  )
+  
+welcome_carousel
+  
+```
+
+<hr />
+<br />
+
+
+# Software {#Software}
+
+
+#### Most of my (open-source) software projects are made available as [R](https://cran.r-project.org/) package(s). [R's packaging system](http://r-pkgs.had.co.nz/) provides a convenient way not only to share code, but also data, and [dynamic/reproducible reports](http://cpsievert.github.io/slides/markdown). You can find all my projects via my [GitHub profile](https://github.com/cpsievert), but here is a list of selected projects:
+
+## plotly
+
+[The R package **plotly**](https://github.com/ropensci/plotly) makes it easy to create highly interactive web-based graphics from R. It is arguably the most widely used [R package for web-based data visualization](http://gallery.htmlwidgets.org/). I've been maintaining **plotly** since early-2015, then started [the plotly book](https://cpsievert.github.io/plotly_book/) in 2016, and received the 2017 [John Chambers Statistical Software Award](http://stat-computing.org/awards/jmc/) for my contributions.
+
+<a href="https://gist.github.com/cpsievert/fa56bd89122e395803f30602b774dbe1" target="_blank">
+  <img src="http://i.imgur.com/3m3dNgP.gif" width="100%" height="400" />
+</a>
+
+## bcviz
+
+[The R package **bcviz**](https://github.com/cpsievert/housing-data-challenge-plotly) provides a (shiny) web application for exploring housing and census data in British Columbia. The video below shows how to navigate the application.
+
+<iframe src="https://player.vimeo.com/video/207379729" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## LDAvis
+
+[The R package **LDAvis**](https://github.com/cpsievert/LDAvis) provides an interactive web-based visualization of any topic model that has been fit to a corpus of text data using Latent Dirichlet Allocation (LDA). Given the estimated parameters of the topic model, it computes various summary statistics as input to an interactive visualization built with D3.js. The goal is to enhance interpretation of topics and the video below shows how to leverage the visualization to do so.
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/IksL96ls4o0" frameborder="0" allowfullscreen></iframe>
+
+## zikar
+
+[The R package **zikar**](https://github.com/cpsievert/zikar) provides a (shiny) web application for exploring publicly available Zika virus data. The video below shows how the app may be used to compare the distribution of confirmed/suspected cases overall versus inside the map.
+
+<iframe src="https://player.vimeo.com/video/190610577" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## plotdap
+
+[The R package **plotdap**](https://github.com/ropensci/plotdap) provides a programming interface that makes it easy to visualize spatio-temporal data from NOAA servers using various mapping projections.
+
+<a href="https://github.com/ropensci/plotdap" target="_blank">
+  <img src="https://i.imgur.com/RAXwrfH.gif" width="100%" height="450" />
+</a>
+
+## pedestrians
+
+[The R package **pedestrians**](https://github.com/cpsievert/pedestrians) provides an interface to the [City of Melbourne's pedestrian data](http://www.pedestrian.melbourne.vic.gov.au/). The video below shows how to navigate one of the numerous visualizations available through [this site](http://cpsievert.github.io/pedestrians/).
+
+<iframe src="https://player.vimeo.com/video/189670650" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## eechidna
+
+[The R package **eechidna**](https://github.com/ropenscilabs/eechidna) provides a (shiny) web application for exploring Australian election and census data. The video below shows how the app may be used to compare the demographics (and geographic location) of electorates that elected a liberal party representative (in green) versus a labour representive (orange).
+
+<iframe src="https://player.vimeo.com/video/221026626" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## pitchRx
+
+[The R package **pitchRx**](https://github.com/cpsievert/pitchRx) provides a programming interface for acquiring and visualizing MLBAM's PITCHf/x data. [This publication](https://journal.r-project.org/archive/2014-1/sievert.pdf) describes the project and its use cases.
+
+
+<a href="https://github.com/cpsievert/pitchRx" target="_blank">
+  <img src="https://i.imgur.com/VdrqgOp.png" width="100%" height="400" />
+</a>
+
+
+## 2016election
+
+[The **2016election** repository](https://github.com/cpsievert/2016election) provides some R scripts to collect and visualize outcomes from the 2016 US presidential election. The video below shows some insights gleaned from this data:
+
+<iframe src="https://player.vimeo.com/video/202650161" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+```{js}
+$('ul.nav').find('a').click(function(){
+    var href = $(this).attr('href');
+    if (href.substring(0, 1) !== "#") {
+      return true;
+    }
+    var $anchor = $(href).offset();
+    $('body').animate({ scrollTop: $anchor.top });
+    return false;
+});
+```
+
+
+```{r footer}
+# reusable function for fontawesome icons
+icons <- function(names = "terminal") {
+  icon_list <- list()
+  for (i in seq_along(names)) {
+    icon_list[[i]] <- htmltools::tags$i(
+      class = sprintf("fa fa-%s fa-fw fa-3x", names[[i]]),
+      `aria-hidden` = "true"
+    )
+    # add a link to the logo if names attr exists
+    if (!is.null(names(names))) {
+      icon_list[[i]] <- htmltools::tags$a(
+        href = names(names)[[i]], target = "_blank", icon_list[[i]]
+      )
+    }
+  }
+  htmltools::tags$div(style = "display: inline", icon_list)
+}
+
+
+tagList(
+  hr(), br(),
+  tags$footer(
+    div(
+      style = "max-width: 700px; height:75px; margin: auto",
+      div(
+        style = "display:inline-block; margin:auto", 
+        a(href = "https://github.com/cpsievert/cpsievert.github.com/", target = "_blank", "Copyright 2017 Carson Sievert")
+      ),
+      div(
+        style = "display:inline-block; float:right; margin:auto",
+        icons(c("mailto:cpsievert1@gmail.com" = "envelope-o")),
+        icons(c("https://twitter.com/cpsievert" = "twitter")),
+        icons(c("https://github.com/cpsievert" = "github")),
+        icons(c("https://vimeo.com/cpsievert" = "vimeo"))
+      )
+    )
+  )
+)
+```

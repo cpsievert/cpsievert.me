@@ -1,0 +1,99 @@
+---
+author: "Carson Sievert"
+layout: page
+permalink: /cv/
+urlcolor: cyan
+output: 
+  pdf_document: 
+    latex_engine: "xelatex" 
+    includes:
+      in_header:
+       - cv-in-header.tex
+      before_body: 
+       - cv-before-body.tex
+  html_document:
+    keep_md: true
+---
+
+## Education
+
+* Ph.D. in Statistics, Iowa State University \hfill (2016)
+    * __Thesis__: [Interfacing R with Web Technologies for Interactive Graphics and Computing with Data](https://github.com/cpsievert/phd-thesis)
+* M.S. in Statistics, Iowa State University \hfill (2013)
+* Double B.A. in Mathematics & Economics, Saint John's University \hfill (2010)
+
+## Experience
+  
+__CEO__, [Sievert Consulting LLC](https://cpsievert.me/consulting/). \hfill May 2015 - Present
+
+* Maintainer of the R package [__plotly__](https://github.com/ropensci/plotly) for creating interactive web graphics. Authored the [plotly book](https://plotly-book.cpsievert.me/) which provides an overview of the project.
+* Created the R package [__plotdap__](https://github.com/ropensci/plotdap) for easy visualization of spatio-temporal data from NOAA servers.
+* Created the R package [__bcviz__](https://github.com/cpsievert/housing-data-challenge-plotly) for visualizing Canadian housing/census data.
+* Created the R package [__zikar__](https://github.com/cpsievert/zikar) for monitoring Zika virus disease outbreak.
+
+__Research Assistant__, [Monash University](http://www.monash.edu/). \hfill September 2015 - May 2016
+
+* Advise honours student research and present workshops on data science in R.
+    
+__Software Developer__, [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2014). \hfill Summers 2014-2017
+onsulting LLC](https://cpsievert.me/consulting/). \hfill May 2015 - Present
+
+* Maintainer of the R package [__plotly__](https://github.com/ropensci/plotly) for creating interactive web graphics. Authored the [plotly book](https://plotly-book.cpsievert.me/) which provides an overview of the project.
+* Created the R package [__plotdap__](https://github.com/ropensci/plotdap) for easy visualization of spatio-temporal data from NOAA servers.
+* Created the R package [__bcviz__](https://github.com/cpsievert/housing-data-challenge-plotly) for visualizing Canadian housing/census data.
+* Created the R package [__zikar__](https://github.com/cpsievert/zikar) for monitoring Zika virus disease outbreak.
+
+* Served as a student in summer 2014 and a mentor in subsequent years for  [__animint__](https://github.com/tdhock/animint); an R package for creating interactive web graphics.
+  
+__Research Intern__, [Statistics Research Department at AT&T Labs](http://stats.research.att.com/). \hfill Summer 2013
+
+* Authored the R package [__LDAvis__](https://github.com/cpsievert/LDAvis) with [Kenny Shirley](http://www2.research.att.com/~kshirley/).
+
+__Lecturer/TA__, [Iowa State University](http://www.stat.iastate.edu/). \hfill Aug. 2011 - May 2015
+
+* Instructor for the online version of 'Intro to Business Statistics' (Summer 2014 onwards).
+* Course instructor for [Intro to Business Statistics](http://www.registrar.iastate.edu/catalog/2009-11/courses/stat.html#200). (Fall 2012 - Spring 2014)
+* Teaching Assistant for [Statistical Methods for Research Workers](http://www.registrar.iastate.edu/catalog/2009-11/courses/stat.html#400). (Summer 2012)
+* Grading supervisor for Intro to Business Statistics. (Fall 2011 & Spring 2012)
+
+<!--	
+__Data Analyst__, [Hardwick-Day Inc.](http://hardwickday.com/) \hfill Nov. 2010 - Nov. 2011
+
+* Developed an algorithm for the company's web-based [Net Price Calculators](http://hardwickday.com/capabilities/net-price-calculator) (projected to generate over $3M in new revenue over five years).
+-->
+
+## Publications
+
+### Book Chapters
+* Carson Sievert and Brian Mills (2017). "Using Publicly Available Baseball Data to Measure and Evaluate Pitching Performance" in [Handbook of Statistical Methods and Analyses in Sports](https://www.crcpress.com/Handbook-of-Statistical-Methods-and-Analyses-in-Sports/Albert-Glickman-Swartz-Koning/p/book/9781498737364), edited by Jim Albert, Mark E. Glickman, Tim B. Swartz, and Ruud H. Koning. Chapman & Hall/CRC. ISBN 9781498737364. ([preprint](pitching-chapter.pdf))
+
+### Journal Articles
+* Carson Sievert (2014). [Taming PITCHf/x Data with pitchRx and XML2R](http://journal.r-project.org/archive/2014-1/sievert.pdf). [The R Journal](http://journal.r-project.org/). 6(1).
+
+### Workshop Papers
+
+* Carson Sievert and Kenny Shirley (2014). [LDAvis: A Method for Visualizing and Interpreting Topics](http://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf). [Workshop on Interactive Language Learning, Visualization, and Interfaces at the Association for Computational Linguistics](http://nlp.stanford.edu/events/illvi2014/index.html). Baltimore, Maryland, 2014.
+
+### Manuscripts
+
+* Carson Sievert (2016). [plotly for R](https://plotly-book.cpsievert.me).
+* Carson Sievert (2016). [Interactive data visualization on the web using R](https://github.com/cpsievert/phd-thesis/blob/master/plotly.Rmd).
+* Carson Sievert, Toby Dylan Hocking, and Susan VanderPlas (2015). [Animint: A Grammar for Interactive Animations](https://github.com/tdhock/animint-paper/blob/master/HOCKING-animint.pdf)
+
+## Talks
+
+Please see <https://talks.cpsievert.me>
+
+## Workshops
+
+Please see <https://workshops.cpsievert.me>
+
+## Honors/Awards
+
+* 2017 [John Chambers award](http://stat-computing.org/awards/jmc/winners.html) winner
+* Invited participant of [2016 rOpenSci Unconference Australia](http://auunconf.ropensci.org/).
+* Awarded first place in the [2014 statistical graphics video competition](http://web.archive.org/web/20140215133100/http://streaming.stat.iastate.edu/~dicook/video-competition/) for [this submission](http://web.archive.org/web/20160509234133/http://stat-graphics.org/movies/ldavis.html). 
+* Invited participant of the [2014 rOpenSci hackathon](http://ropensci.github.io/hackathon/) (see my [blog post](https://ropensci.org/blog/2014/04/16/topic-modeling-in-R/))
+* Invited member of the National Mathematics Honor Society - Pi Mu Epsilon
+* Invited member of the Economics Honor Society - Omicron Kappa Sigma
+* President's scholar and Dean's List recipient
