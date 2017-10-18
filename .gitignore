@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+*.map
+*.sass-cache/
+*.DS_Store

@@ -43,11 +43,11 @@
 		color: #fff;
 	}
 
-/* Intro */
+/* welcome */
 
-	#intro {
+	#welcome {
 		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
-		background: url('../../images/intro.jpg');
+		background: url('../../images/welcome.jpg');
 		background-size: cover;
 
 		.content {
@@ -66,11 +66,11 @@
 		}
 	}
 
-/* One */
+/* consulting */
 
-	#one {
+	#consulting {
 		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
-		background: url('../../images/one.jpg');
+		background: url('../../images/consulting.jpg');
 		background-size: cover;
 
 		.content {
@@ -90,11 +90,11 @@
 		}
 	}
 
-/* Two */
+/* training */
 
-	#two {
+	#training {
 		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
-		background: url('../../images/two.jpg');
+		background: url('../../images/training.jpg');
 		background-size: cover;
 
 		.content {
