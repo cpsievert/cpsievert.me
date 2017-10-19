@@ -49,15 +49,15 @@ button {
     left: 0;
     top: 0; }
 
-/* consulting */
-#consulting {
+/* work */
+#work {
   -ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-  background: url("../../images/consulting.jpg");
+  background: url("../../images/work.jpg");
   background-size: cover; }
-  #consulting .content {
+  #work .content {
     position: relative;
     z-index: 1; }
-  #consulting.left:before, #consulting.right:after {
+  #work.left:before, #work.right:after {
     content: '';
     background: url("images/overlay.png");
     width: 100%;
