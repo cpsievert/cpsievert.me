@@ -1452,6 +1452,10 @@ body {
       #footer ul.menu li a {
         line-height: 1.5em; } }
 
+/* Design mistakes by cpsievert */
+a:hover img {
+  filter: grayscale(100%); }
+
 /* welcome */
 #welcome {
   background: url("images/overlay.png"), url("../../images/welcome.jpg");

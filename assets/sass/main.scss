@@ -50,6 +50,12 @@
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+	
+/* Design mistakes by cpsievert */
+
+  a:hover img {
+    filter: grayscale(100%);
+  }
 
 /* welcome */
 
