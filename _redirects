@@ -1,9 +1,13 @@
-/blog                  https://blog.cpsievert.me/:splat
-/post                  https://blog.cpsievert.me/:splat
+# Blog related redirects
+# blog used to 'live' on cpsievert.me, but has migrated to blog.cpsievert.me
+/:year/:month/:day/:slug   /blog/:year/:month/:day/:slug
+/blog/*                    https://blog.cpsievert.me/:splat
+/post/*                    https://blog.cpsievert.me/:splat
 
 /home                  /
-/plotly_book/*         https://plotly-book.cpsievert.me/:splat
 
+# Other Github repo/project redirects
+/plotly_book/*         https://plotly-book.cpsievert.me/:splat
 /consulting/*          https://consulting.cpsievert.me/:splat
 /projects/*            https://projects.cpsievert.me/:splat
 /talks/*               https://talks.cpsievert.me/:splat
