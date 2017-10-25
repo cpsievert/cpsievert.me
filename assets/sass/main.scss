@@ -109,3 +109,8 @@
 			}
 		}
 	}
+
+/* Hack to avoid iframe from overlapping caption */
+iframe {
+  position: static !important;
+}

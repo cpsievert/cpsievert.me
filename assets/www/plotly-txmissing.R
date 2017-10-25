@@ -26,12 +26,14 @@ s <- subplot(p1, p2, titleX = TRUE, widths = c(0.3, 0.7)) %>%
   layout(
     margin = list(l = 120),
     annotations = list(list(
-      text = "Median house price in \n San Marcos reached $250,000 \n in late 2010",
+      text = "Median house price reached \n $250,000 in late 2010",
       x = 2010.8, y = 250000, xref = "x2", yref = "y2",
-      ax = -1
+      ay = -30, ax = -50
     ),
     list(
-      text = "San Marcos is missing price information between 2001 & 2005",
+      text = "San Marcos house prices \n are missing between \n 2001 & 2005",
+      x = 2003, y = 150000, xref = "x2", yref = "y2",
+      ay = -50
     ))
   ) %>%
   hide_legend() %>%
