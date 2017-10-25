@@ -101,7 +101,7 @@
 					usePopupCaption: true,
 					popupLoaderText: '',
 					windowMargin: 50,
-					usePopupNav: true
+					usePopupNav: false
 				});
 
 				// Hack: Adjust margins when 'small' activates.

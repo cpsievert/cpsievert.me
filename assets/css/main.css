@@ -1497,5 +1497,10 @@ body {
   @media screen and (max-width: 736px) {
     #contact .box {
       padding-bottom: 2em; } }
+      
+      
+iframe {
+  position: static !important;
+}
 
 /*# sourceMappingURL=main.css.map */
