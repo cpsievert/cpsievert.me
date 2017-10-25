@@ -4,7 +4,10 @@
 /blog/*                    https://blog.cpsievert.me/:splat
 /post/*                    https://blog.cpsievert.me/:splat
 
+# redirect some old links 
 /home                  /
+/about                 /
+/software              /#portfolio
 
 # Other Github repo/project redirects
 /plotly_book/*         https://plotly-book.cpsievert.me/:splat
