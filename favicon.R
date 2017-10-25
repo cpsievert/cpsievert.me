@@ -30,6 +30,7 @@ d <- tibble::tibble(
   ))
 
 ggsave("logo.png", p, width = 8, height = 8, units = "in", dpi = 40)
+file.rename("logo.png", "favicon.ico")
 
 # too large!
 # ggsave("logo.svg", width = 12.152778, height = 7.916667, units = "in")
