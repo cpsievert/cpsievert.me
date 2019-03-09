@@ -11,6 +11,10 @@
 
 # Other Github repo/project redirects
 /plotly_book/*         https://plotly-book.cpsievert.me/:splat
+
+# permantent redirect to plotly R book domain
+https://plotly-book.cpsievert.me/:splat   https://plotly-r.com/:splat   301!
+
 /consulting/*          https://consulting.cpsievert.me/:splat
 /projects/*            https://projects.cpsievert.me/:splat
 /talks/*               https://talks.cpsievert.me/:splat
