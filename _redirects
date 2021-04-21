@@ -28,3 +28,8 @@
 
 # TODO: stop being lazy and update/redo this post
 /xkcd                  https://projects.cpsievert.me/615/xkcd/
+
+
+# sensible redirect for renamed sections of plotly book
+https://plotly-book.cpsievert.me/linking-views-without-shiny.html https://plotly-book.cpsievert.me/linking-views-client-side.html
+https://plotly-book.cpsievert.me/linking-views-with-shiny.html https://plotly-book.cpsievert.me/linking-views-server-side.html

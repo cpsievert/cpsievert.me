@@ -24,17 +24,28 @@ output:
 
 ## Experience
 
-__Software Engineer__, [RStudio](https://rstudio.com) \hfill October 2019 - Present
+__Software Engineer__, [RStudio](https://www.rstudio.com/). \hfill Sept 2018 - Present
 
-* Member of the shiny core development team. Contribute to many important R packages, such as [shiny](http://shiny.rstudio.com/), [shinytest](https://rstudio.github.io/shinytest), [shinymeta](https://rstudio.github.io/shinymeta), [plotly](https://github.com/ropensci/plotly), and more.
+Develop software and write documentation to make the Shiny (<https://shiny.rstudio.com/>) and R Markdown (<https://rmarkdown.rstudio.com>) ecosystem even better tools for doing data science in R.
   
-__CEO__, [Sievert Consulting LLC](https://cpsievert.me/consulting/). \hfill May 2015 - Present
+__Principal consultant__, [Sievert Consulting LLC](https://cpsievert.me/consulting/). \hfill May 2015 - Present
 
-* Develop scientific software for organizations such as plotly, NOAA, and Sandia National Labs.
+Deliver websites and develop software so clients can more easily:
+
+* Explore association between mental disorders and medical conditions <https://como-gmc.cpsievert.me>, mortality <https://ncrr-au.shinyapps.io/como-mortality>, and the economy <https://csievert.shinyapps.io/mental-cost>
+* Explore the societal impact of COVID-19 in North Carolina <https://carolinatracker.unc.edu/tracker>
+* Explore NOAA's spatio-temporal data <https://github.com/ropensci/plotdap>
+* Explore Canada's housing markets and census data <https://github.com/cpsievert/housing-data-challenge-plotly>
+* Explore the Zika virus outbreak <https://github.com/cpsievert/zikar>
+* Create interactive web graphics from R <https://plotly-r.com>
 
 __Research Assistant__, [Monash University](http://www.monash.edu/). \hfill September 2015 - May 2016
 
-* Advised honours student research and present workshops on data science in R.
+* Advise honors student research and present workshops on data science in R.
+
+__Lecturer__, [Iowa State University](http://www.stat.iastate.edu/). \hfill Aug. 2011 - May 2015
+
+* Course instructor for [Intro to Business Statistics](http://www.registrar.iastate.edu/catalog/2009-11/courses/stat.html#200).
     
 __Software Developer__, [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2014). \hfill Summers 2014-2017
 
@@ -44,13 +55,6 @@ __Research Intern__, [Statistics Research Department at AT&T Labs](http://stats.
 
 * Authored the R package [__LDAvis__](https://github.com/cpsievert/LDAvis) with [Kenny Shirley](http://www2.research.att.com/~kshirley/).
 
-__Lecturer/TA__, [Iowa State University](http://www.stat.iastate.edu/). \hfill Aug. 2011 - May 2015
-
-* Instructor for the online version of 'Intro to Business Statistics' (Summer 2014 onwards).
-* Course instructor for [Intro to Business Statistics](http://www.registrar.iastate.edu/catalog/2009-11/courses/stat.html#200). (Fall 2012 - Spring 2014)
-* Teaching Assistant for [Statistical Methods for Research Workers](http://www.registrar.iastate.edu/catalog/2009-11/courses/stat.html#400). (Summer 2012)
-* Grading supervisor for Intro to Business Statistics. (Fall 2011 & Spring 2012)
-
 <!--	
 __Data Analyst__, [Hardwick-Day Inc.](http://hardwickday.com/) \hfill Nov. 2010 - Nov. 2011
 
@@ -59,30 +63,39 @@ __Data Analyst__, [Hardwick-Day Inc.](http://hardwickday.com/) \hfill Nov. 2010 
 
 ## Publications
 
-### Journal Articles
+### Books
 
-* Carson Sievert, Susan VanderPlas, Jun Cai, Kevin Ferris, Faizan Uddin Fahad Khan & Toby Dylan Hocking (2019) Extending ggplot2 for Linked and Animated Web Graphics, _Journal of Computational and Graphical Statistics_, 28:2, 299-308, DOI: 10.1080/10618600.2018.1513367.
-* Tal Galili, Alan O'Callaghan, Jonathan Sidi, Carson Sievert (2017); heatmaply: an R package for creating interactive cluster heatmaps for online publishing, *Bioinformatics*, <https://doi.org/10.1093/bioinformatics/btx657>
-* Carson Sievert and Kenny Shirley (2014). [LDAvis: A Method for Visualizing and Interpreting Topics](http://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf). [Workshop on Interactive Language Learning, Visualization, and Interfaces at the Association for Computational Linguistics](http://nlp.stanford.edu/events/illvi2014/index.html). Baltimore, Maryland, 2014.
-* Carson Sievert (2014). [Taming PITCHf/x Data with pitchRx and XML2R](http://journal.r-project.org/archive/2014-1/sievert.pdf). [The R Journal](http://journal.r-project.org/). 6(1).
+* Carson Sievert (2020): Interactive web-based data visualization with R, plotly, and shiny. _Chapman and Hall/CRC_, <https://plotly-r.com>.
 
-## Books
+### Book chapters
 
-* Carson Sievert (2019). _Interactive web-based data visualization with R, plotly, and shiny_. Chapman & Hall. In preparation. <https://plotly-r.com>.
+* Carson Sievert and Brian Mills (2017): Using Publicly Available Baseball Data to Measure and Evaluate Pitching Performance in [Handbook of Statistical Methods and Analyses in Sports](https://www.crcpress.com/Handbook-of-Statistical-Methods-and-Analyses-in-Sports/Albert-Glickman-Swartz-Koning/p/book/9781498737364). Chapman & Hall/CRC. ISBN 9781498737364.
 
-### Book Chapters
+### Journal articles
 
-* Carson Sievert and Brian Mills (2017). "Using Publicly Available Baseball Data to Measure and Evaluate Pitching Performance" in [Handbook of Statistical Methods and Analyses in Sports](https://www.crcpress.com/Handbook-of-Statistical-Methods-and-Analyses-in-Sports/Albert-Glickman-Swartz-Koning/p/book/9781498737364), edited by Jim Albert, Mark E. Glickman, Tim B. Swartz, and Ruud H. Koning. Chapman & Hall/CRC. ISBN 9781498737364. ([preprint](pitching-chapter.pdf))
+* Natalie C. Momen et al. (2020): Association between Mental Disorders and Subsequent Medical Conditions. _New England Journal of Medicine_ <https://doi.org/10.1056/NEJMoa1915784>.
+* Carson Sievert et al. (2019): Extending ggplot2 for Linked and Animated Web Graphics. _Journal of Computational and Graphical Statistics_ <https://doi.org/10.1080/10618600.2018.1513367>.
+* Tal Galili et al. (2017): heatmaply: an R package for creating interactive cluster heatmaps for online publishing. _Bioinformatics_ <https://doi.org/10.1093/bioinformatics/btx657>.
+* Carson Sievert and Kenny Shirley (2014): LDAvis: A Method for Visualizing and Interpreting Topics. _Workshop on Interactive Language Learning, Visualization, and Interfaces at the Association for Computational Linguistics_. <http://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf>.
+* Carson Sievert (2014): Taming PITCHf/x Data with pitchRx and XML2R. _The R Journal_ <http://journal.r-project.org/archive/2014-1/sievert.pdf>.
 
 ## Talks
 
-Please see <https://talks.cpsievert.me>
+Please see <https://talks.cpsievert.me>.
 
 ## Workshops
 
-Please see <https://workshops.cpsievert.me>
+Please see <https://workshops.cpsievert.me>.
 
-## Honors/Awards
+## Software
+
+Please see <https://github.com/cpsievert>.
+
+## Service 
+
+* 2021 Program Chair-Elect, Section on Statistical Graphics, American Statistical Association.
+
+## Honors & awards
 
 * 2017 [John Chambers award](http://stat-computing.org/awards/jmc/winners.html) winner
 * Invited participant of [2016 rOpenSci Unconference Australia](http://auunconf.ropensci.org/).
