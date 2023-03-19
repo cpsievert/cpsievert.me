@@ -26,18 +26,21 @@ output:
 
 __Software Engineer__, [RStudio](https://www.rstudio.com/). \hfill Sept 2018 - Present
 
-Develop software and write documentation to make the Shiny (<https://shiny.rstudio.com/>) and R Markdown (<https://rmarkdown.rstudio.com>) ecosystem even better tools for doing data science in R.
+Develop and maintain software that RStudio's business model and user base depends upon, including but not limited to: [Shiny](https://shiny.rstudio.com/), [R Markdown](https://pkgs.rstudio.com/rmarkdown/), [Flexdashboard](https://pkgs.rstudio.com/flexdashboard/), [Plotly](https://plotly-r.com/), [bslib](https://rstudio.github.io/bslib/), [thematic](https://rstudio.github.io/thematic/), [shinymeta](https://rstudio.github.io/shinymeta/), etc.
   
 __Principal consultant__, [Sievert Consulting LLC](https://cpsievert.me/consulting/). \hfill May 2015 - Present
 
-Deliver websites and develop software so clients can more easily:
+Develop software and websites that enable clients to more easily explore data, for example:
 
-* Explore association between mental disorders and medical conditions <https://como-gmc.cpsievert.me>, mortality <https://ncrr-au.shinyapps.io/como-mortality>, and the economy <https://csievert.shinyapps.io/mental-cost>
+* Explore association between mental disorders and medical conditions <https://como-gmc.cpsievert.me>, mortality <https://csievert.shinyapps.io/atlasdiseasemortality>, and the economy <https://csievert.shinyapps.io/mental-cost>
 * Explore the societal impact of COVID-19 in North Carolina <https://carolinatracker.unc.edu/tracker>
 * Explore NOAA's spatio-temporal data <https://github.com/ropensci/plotdap>
+
+<!--
 * Explore Canada's housing markets and census data <https://github.com/cpsievert/housing-data-challenge-plotly>
 * Explore the Zika virus outbreak <https://github.com/cpsievert/zikar>
 * Create interactive web graphics from R <https://plotly-r.com>
+-->
 
 __Research Assistant__, [Monash University](http://www.monash.edu/). \hfill September 2015 - May 2016
 
